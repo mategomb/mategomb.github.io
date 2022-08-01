@@ -8,8 +8,21 @@
 
 		<title>Máté Gombkötő - Front-End Developer</title>
 
-		<link href="assets/favicon.png" rel="icon" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet" />
+
 		<link href="sanitize.css/imports.css" rel="stylesheet" />
+
+		<link href="assets/favicon.png" rel="icon" />
 		<link href="style/imports.css" rel="stylesheet" />
 
 		<script src="scripts.js" defer></script>
@@ -230,12 +243,7 @@
 					<p class="intro">
 						<span>Or reach out to me directly through the magic email button below.</span>
 					</p>
-					<a
-						class="button button--centered js-email-button"
-						target="_blank"
-						rel="noopener noreferrer"
-						x-bind:href="isActive && `mailto:${localPart}@${domain}`"
-					>
+					<a class="button button--centered js-email-button" target="_blank" rel="noopener noreferrer">
 						<img class="button-gmail" src="assets/gmail.png" alt="gmail logo" />
 					</a>
 				</div>
@@ -243,7 +251,7 @@
 		</main>
 
 		<footer class="footer">
-			<span>&copy;</span>
+			<span>&#169;</span>
 			<span class="js-footer-year"></span>
 			<span>Máté Gombkötő</span>
 		</footer>
