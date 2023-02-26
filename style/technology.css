@@ -45,32 +45,36 @@
 	height: 1.2rem;
 }
 
-.technology-logo--js {
-	height: 1.3rem;
+.technology-logo.--sass {
+	height: 1.7rem;
 }
 
-.technology-logo--ts {
-	height: 1.3rem;
+.technology-logo.--tailwind {
+	height: 1.7rem;
+}
+
+.technology-logo--bem {
+	height: 1.1rem;
+}
+
+.technology-logo--js {
+	height: 1.2rem;
 }
 
 .technology-logo--vue {
-	height: 1.2rem;
+	height: 1.1rem;
 }
 
 .technology-logo--code {
 	height: 1.2rem;
 }
 
-.technology-logo--vim {
-	height: 1.3rem;
-}
-
 .technology-logo--git {
-	height: 1.2rem;
+	height: 1.1rem;
 }
 
 .technology-logo--linux {
-	height: 1.4rem;
+	height: 1.3rem;
 }
 
 .technology-name {
