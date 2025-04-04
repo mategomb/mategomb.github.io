@@ -1,3 +1,6 @@
 [submodule "classic-car-restoration-home-page"]
 	path = classic-car-restoration-home-page
 	url = https://github.com/mategomb/classic-car-restoration-home-page
+[submodule "travel-agency-home-page"]
+	path = travel-agency-home-page
+	url = https://github.com/mategomb/travel-agency-home-page
