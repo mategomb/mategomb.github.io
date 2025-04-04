@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // breakpoints in pixels
 
 const breakpoints = {
@@ -200,4 +199,3 @@ const breakpoints = {
 // copyright year
 
 document.querySelector(".js-footer-year").textContent = new Date().getFullYear();
->>>>>>> 0d2720f7fec04187ca42291c1126d26223a57877
