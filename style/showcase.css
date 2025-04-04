@@ -1,0 +1,22 @@
+.section--showcase {
+	--bg-img-url: url("../assets/showcase.jpg");
+}
+
+.section__content--showcase {
+	padding-bottom: 3rem;
+}
+
+.deck--showcase {
+	gap: 2rem;
+	margin: 0 0.5rem;
+}
+
+@media (min-width: 768px) {
+	.section__content--showcase {
+		padding-bottom: 3.5rem;
+	}
+
+	.deck--showcase {
+		gap: 2.4rem;
+	}
+}

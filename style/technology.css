@@ -1,0 +1,84 @@
+.technology {
+	align-items: center;
+	background-color: var(--azure-1);
+	border: var(--thin) solid var(--azure-3);
+	border-radius: 0.5rem;
+	display: flex;
+	gap: 0.3rem;
+	height: 4rem;
+	justify-content: center;
+	overflow: hidden;
+	transition: all 0.5s;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 10rem;
+}
+
+.technology:is(:hover, :focus-within) {
+	background-color: var(--azure-2);
+	border-color: var(--azure-4);
+	transform: scale(1.1);
+}
+
+.technology:active {
+	background-color: var(--azure-3);
+	border-color: var(--azure-5);
+}
+
+/*
+	.technology:is(:hover, :focus-within) .technology__name {
+		color: var(--whatever);
+	}
+*/
+
+.technology--reversed {
+	flex-direction: row-reverse;
+}
+
+.technology__logo--html {
+	height: 1.2rem;
+}
+
+.technology__logo--css {
+	height: 1.2rem;
+}
+
+.technology__logo--js {
+	height: 1.2rem;
+}
+
+.technology-logo--bem {
+	height: 1.1rem;
+}
+
+.technology__logo--ts {
+	height: 1.2rem;
+}
+
+.technology__logo--react {
+	height: 1.3rem;
+}
+
+.technology-logo--vue {
+	height: 1.1rem;
+}
+
+.technology__logo--code {
+	height: 1.2rem;
+}
+
+.technology__logo--git {
+	height: 1.1rem;
+}
+
+.technology__logo--linux {
+	height: 1.3rem;
+}
+
+.technology__name {
+	font-size: 1.1rem;
+	font-family: var(--highlight-font);
+	transition: all 0.5s;
+}

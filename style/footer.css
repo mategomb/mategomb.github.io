@@ -1,0 +1,6 @@
+.footer {
+	font-family: var(--highlight-font);
+	font-size: 0.8rem;
+	padding: 1.5rem 0;
+	text-align: center;
+}

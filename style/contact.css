@@ -1,0 +1,35 @@
+.section--contact {
+	--bg-img-url: url("../assets/boats.jpg");
+}
+
+.section__content--contact {
+	padding-bottom: 2rem;
+}
+
+.button__linkedin-logo {
+	height: 1.5rem;
+}
+
+.button__xing-logo {
+	height: 1.5rem;
+}
+
+.button__gmail-logo {
+	height: 1.7rem;
+}
+
+.button--inactive {
+	cursor: not-allowed;
+}
+
+@media (min-width: 576px) {
+	.section__content--contact {
+		padding-bottom: 2.5rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.section__content--contact {
+		padding-bottom: 3rem;
+	}
+}

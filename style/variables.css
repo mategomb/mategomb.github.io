@@ -1,0 +1,70 @@
+html {
+	/* fonts */
+
+	--default-font: "Roboto", sans-serif;
+	--highlight-font: "Raleway", sans-serif;
+	--fancy-font: "Zeyada", cursive;
+
+	/* border thickness */
+	--thin: 0.05rem;
+
+	/* general colors */
+
+	--white: hsl(0, 0%, 100%);
+	--black: hsl(0, 0%, 0%);
+
+	--gray-1: hsl(0, 0%, 90%);
+	--gray-2: hsl(0, 0%, 80%);
+	--gray-3: hsl(0, 0%, 70%);
+	--gray-4: hsl(0, 0%, 60%);
+	--gray-5: hsl(0, 0%, 50%);
+	--gray-6: hsl(0, 0%, 40%);
+	--gray-7: hsl(0, 0%, 30%);
+	--gray-8: hsl(0, 0%, 20%);
+	--gray-9: hsl(0, 0%, 10%);
+
+	--cyan-test: hsl(180, 100%, 95%);
+
+	--cyan-1: hsl(180, 100%, 40%);
+	--cyan-2: hsl(180, 100%, 35%);
+	--cyan-3: hsl(180, 100%, 30%);
+	--cyan-4: hsl(180, 100%, 25%);
+	--cyan-5: hsl(180, 100%, 20%);
+
+	--azure-1: hsl(210, 100%, 95%);
+	--azure-2: hsl(210, 100%, 90%);
+	--azure-3: hsl(210, 100%, 85%);
+	--azure-4: hsl(210, 100%, 80%);
+	--azure-5: hsl(210, 100%, 75%);
+	--azure-6: hsl(210, 100%, 70%);
+	--azure-7: hsl(210, 100%, 65%);
+	--azure-8: hsl(210, 100%, 60%);
+	--azure-9: hsl(210, 100%, 55%);
+
+	--transparent: hsla(0, 0%, 100%, 0);
+
+	--translucent-1: hsla(0, 0%, 100%, 0.1);
+	--translucent-2: hsla(0, 0%, 100%, 0.2);
+	--translucent-3: hsla(0, 0%, 100%, 0.3);
+	--translucent-4: hsla(0, 0%, 100%, 0.4);
+	--translucent-5: hsla(0, 0%, 100%, 0.5);
+	--translucent-6: hsla(0, 0%, 100%, 0.6);
+	--translucent-7: hsla(0, 0%, 100%, 0.7);
+	--translucent-8: hsla(0, 0%, 100%, 0.8);
+	--translucent-9: hsla(0, 0%, 100%, 0.9);
+
+	--shade-1: hsla(0, 0%, 0%, 0.1);
+	--shade-2: hsla(0, 0%, 0%, 0.2);
+	--shade-3: hsla(0, 0%, 0%, 0.3);
+	--shade-4: hsla(0, 0%, 0%, 0.4);
+	--shade-5: hsla(0, 0%, 0%, 0.5);
+	--shade-6: hsla(0, 0%, 0%, 0.6);
+	--shade-7: hsla(0, 0%, 0%, 0.7);
+	--shade-8: hsla(0, 0%, 0%, 0.8);
+	--shade-9: hsla(0, 0%, 0%, 0.9);
+
+	/* special colors */
+
+	--background: hsl(0, 0%, 97.5%);
+	--foreground: hsl(0, 0%, 95%);
+}

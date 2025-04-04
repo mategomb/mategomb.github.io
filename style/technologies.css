@@ -1,0 +1,28 @@
+.section--technologies {
+	--bg-img-url: url("../assets/lights.jpg");
+}
+
+.section__content--technologies {
+	padding-bottom: 3rem;
+}
+
+.deck--technologies {
+	gap: 1.5rem;
+	margin: 0 2rem;
+}
+
+@media (min-width: 768px) {
+	.section__content--technologies {
+		padding-bottom: 3.5rem;
+	}
+
+	.deck--technologies {
+		gap: 2rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.section__content--technologies {
+		padding-bottom: 4rem;
+	}
+}

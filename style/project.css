@@ -1,0 +1,50 @@
+.project {
+	border: var(--thin) solid var(--azure-3);
+	border-radius: 0.3rem;
+	display: block;
+	overflow: hidden;
+	transition: all 0.5s;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 14rem;
+}
+
+.project:is(:hover, :focus-within) {
+	border-color: var(--azure-4);
+	transform: scale(1.1);
+}
+
+.project:is(:hover, :focus-within) .project-screenshot {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+.project:is(:hover, :focus-within) .project-description {
+	background-color: var(--azure-2);
+}
+
+.project:active .project-description {
+	background-color: var(--azure-3);
+	transition: none;
+}
+
+.project__screenshot {
+	background-color: var(--white);
+	-webkit-filter: grayscale(50%);
+	filter: grayscale(50%);
+	height: 7rem;
+	-o-object-fit: cover;
+	object-fit: cover;
+	transition: all 0.5s;
+}
+
+.project__description {
+	background-color: var(--azure-1);
+	font-family: var(--highlight-font);
+	font-size: 0.9rem;
+	padding: 0.5rem 0;
+	text-align: center;
+	transition: all 0.5s;
+}
